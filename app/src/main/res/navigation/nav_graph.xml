@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/frag_list">
+
+    <fragment
+        android:id="@+id/frag_list"
+        android:name="com.prosecshane.todoapp.ui.fragments.ListFragment"
+        android:label="Menu Fragment"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_fraglist_to_fragitem"
+            app:destination="@id/frag_item" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/frag_item"
+        android:name="com.prosecshane.todoapp.ui.fragments.TodoItemFragment"
+        android:label="Editor Fragment"
+        tools:layout="@layout/fragment_item">
+        <action
+            android:id="@+id/action_fragitem_to_fraglist"
+            app:destination="@id/frag_list" />
+    </fragment>
+
+</navigation>
