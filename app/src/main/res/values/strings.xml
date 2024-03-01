@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">homework_n1</string>
+<string name="app_name">homework_n1</string>
+<string name="my_tasks">My tasks</string>
+<string name="complete_">Complete — %1$d</string>
+<string name="save">Save</string>
+<string name="priority">Priority</string>
+<string name="need_to_do_something">Need to do something…</string>
+<string name="no">No</string>
+<string name="do_before">Do before</string>
+<string name="delete">Delete</string>
+<string name="_2_june_2023">2 june 2023</string>
+<string name="high">High</string>
+<string name="low">Low</string>
+<string name="normal">Normal</string>
+<string name="new_task">New</string>
 </resources>
