@@ -1,11 +1,10 @@
-package com.example.homework_n1
-
+package com.example.homework_n1.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-
+import com.example.homework_n1.R
 
 // Main Activity, has the Fragment Container
 class MainActivity : AppCompatActivity() {
