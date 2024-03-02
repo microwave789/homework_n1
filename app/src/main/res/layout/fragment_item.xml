@@ -22,7 +22,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/editor_save"
-        android:text="@string/save_button"
+        android:text="Сохранить"
         android:textColor="?attr/colorBlue"
         android:background="?attr/selectableItemBackground"
         android:focusable="true"
@@ -49,7 +49,7 @@
         android:focusable="true"
         app:icon="@drawable/ic_delete"
         app:iconTint="?attr/colorRed"
-        android:text="@string/delete_button"
+        android:text="Удалить"
         android:textColor="?attr/colorRed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
