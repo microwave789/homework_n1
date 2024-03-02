@@ -59,7 +59,7 @@ class ListFragment : Fragment() {
     // Change icon depending on the visibility of done tasks
     private fun styleVisibilityButton(button: ImageButton, onlyUndone: Boolean) {
         button.setImageResource(
-            if (onlyUndone) R.drawable.ic_visible_off else R.drawable.ic_visible
+            if (onlyUndone) R.drawable.ic_visible else R.drawable.ic_visible
         )
     }
 

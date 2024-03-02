@@ -206,7 +206,7 @@ class TodoItemFragment : Fragment() {
         }
     }
 
-    // --- Setup the Interactive parts of the Fragment (all of the above before buttons) ---
+
     private fun setupInteractiveViews(rootView: View) {
         val currentTodoItem = viewModel.currentTodoItem.value as TodoItem
         setupEditText(rootView.findViewById(R.id.editor_text), currentTodoItem.text)
