@@ -1,11 +1,9 @@
-package com.example.homework_n1.ioc
+package com.example.homework_n1
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.homework_n1.data.repository.TodoItemsRepository
-import com.example.homework_n1.ui.stateholders.TodoItemsViewModel
 
-// Class, that creates ViewModels (only one currently supported)
+// Class, that creates ViewModels
 class ViewModelFactory(
     private val todoItemsRepository: TodoItemsRepository
 ) : ViewModelProvider.Factory {

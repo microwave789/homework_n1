@@ -1,4 +1,4 @@
-package com.example.homework_n1.ui.fragments
+package com.example.homework_n1
 
 import android.os.Build
 import android.os.Bundle
@@ -12,12 +12,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.example.homework_n1.R
-import com.example.homework_n1.data.model.TodoItem
-import com.example.homework_n1.ioc.ApplicationComponent
-import com.example.homework_n1.ioc.ListFragmentComponent
-import com.example.homework_n1.ioc.TodoItemsPreviewComponent
-import com.example.homework_n1.ui.stateholders.TodoItemsViewModel
 
 // ListFragment - first fragment, contains the list of all items
 @RequiresApi(Build.VERSION_CODES.M)
@@ -27,7 +21,7 @@ class ListFragment : Fragment() {
     private var previewComponent: TodoItemsPreviewComponent? = null
     private val viewModel: TodoItemsViewModel by activityViewModels { applicationComponent.viewModelFactory }
 
-    // use navController to get to another Fragment
+    // чтобы получить другой комп исп навконтроллер
     private fun navigateTo(id: Int) {
         val navController = findNavController()
         navController.navigate(id)

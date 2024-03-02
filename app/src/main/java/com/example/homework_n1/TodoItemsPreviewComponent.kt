@@ -1,10 +1,9 @@
-package com.example.homework_n1.ioc
+package com.example.homework_n1
 
 import android.os.Build
 import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.LifecycleOwner
-import com.example.homework_n1.ui.view.TodoItemsPreviewController
 
 // Component that contains information for the RecyclerView itself
 @RequiresApi(Build.VERSION_CODES.M)

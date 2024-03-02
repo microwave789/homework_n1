@@ -1,7 +1,7 @@
-package com.example.homework_n1.ui
+package com.example.homework_n1
 
 import android.app.Application
-import com.example.homework_n1.ioc.ApplicationComponent
+import com.example.homework_n1.ApplicationComponent
 
 // Application instance
 class App : Application() {

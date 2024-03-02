@@ -1,4 +1,4 @@
-package com.example.homework_n1.ui.view
+package com.example.homework_n1
 
 import android.app.Activity
 import android.view.View
@@ -6,8 +6,6 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.example.homework_n1.R
-import com.example.homework_n1.ui.stateholders.TodoItemsViewModel
 import com.example.homework_n1.util.toPx
 
 // RecyclerView controller

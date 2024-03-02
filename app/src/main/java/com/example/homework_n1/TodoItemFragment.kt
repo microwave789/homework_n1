@@ -1,4 +1,4 @@
-package com.example.homework_n1.ui.fragments
+package com.example.homework_n1
 
 import android.app.DatePickerDialog
 import android.os.Build
@@ -17,11 +17,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.button.MaterialButton
-import com.example.homework_n1.R
-import com.example.homework_n1.data.model.Importance
-import com.example.homework_n1.data.model.TodoItem
-import com.example.homework_n1.ioc.ApplicationComponent
-import com.example.homework_n1.ui.stateholders.TodoItemsViewModel
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date

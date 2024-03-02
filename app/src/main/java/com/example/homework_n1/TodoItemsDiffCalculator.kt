@@ -1,7 +1,7 @@
-package com.example.homework_n1.ui.view
+package com.example.homework_n1
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.homework_n1.data.model.TodoItem
+import com.example.homework_n1.TodoItem
 
 // Difference Calculator between two lists
 class TodoItemsDiffCalculator : DiffUtil.ItemCallback<TodoItem>() {

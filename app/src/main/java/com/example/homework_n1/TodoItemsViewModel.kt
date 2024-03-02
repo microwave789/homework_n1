@@ -1,12 +1,9 @@
-package com.example.homework_n1.ui.stateholders
+package com.example.homework_n1
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.homework_n1.data.model.Importance
-import com.example.homework_n1.data.model.TodoItem
-import com.example.homework_n1.data.repository.TodoItemsRepository
 import kotlinx.coroutines.launch
 
 // View Model, contains relevant information
@@ -18,11 +15,13 @@ class TodoItemsViewModel(
     val onlyUndone: LiveData<Boolean> = _onlyUndone
 
     // Currently working item (for TodoItemFragment)
-    val _currentTodoItem = MutableLiveData(TodoItem(
+    val _currentTodoItem = MutableLiveData(
+        TodoItem(
         id = "ERROR_ITEM", done = false,
         text = "If you see this, an error occurred. Report this bug to the developer",
         importance = Importance.HIGH, deadline = null
-    ))
+    )
+    )
     val currentTodoItem: LiveData<TodoItem> = _currentTodoItem
 
     // LiveData from the repository

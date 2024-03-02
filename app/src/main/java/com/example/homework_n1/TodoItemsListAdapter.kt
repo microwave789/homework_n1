@@ -1,4 +1,4 @@
-package com.example.homework_n1.ui.view
+package com.example.homework_n1
 
 import android.os.Build
 import android.view.LayoutInflater
@@ -6,9 +6,6 @@ import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.ListAdapter
-import com.example.homework_n1.R
-import com.example.homework_n1.data.model.TodoItem
-import com.example.homework_n1.ui.stateholders.TodoItemsViewModel
 
 // Adapter for the RecyclerView
 @RequiresApi(Build.VERSION_CODES.M)

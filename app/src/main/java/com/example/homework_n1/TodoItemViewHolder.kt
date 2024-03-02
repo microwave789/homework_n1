@@ -1,10 +1,9 @@
-package com.example.homework_n1.ui.view
+package com.example.homework_n1
 
 import android.graphics.Paint
 import android.graphics.PorterDuff
 import android.graphics.PorterDuffColorFilter
 import android.os.Build
-import android.util.Log
 import android.view.View
 import android.widget.CheckBox
 import android.widget.LinearLayout
@@ -16,9 +15,9 @@ import androidx.core.view.isVisible
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.homework_n1.R
-import com.example.homework_n1.data.model.Importance
-import com.example.homework_n1.data.model.TodoItem
-import com.example.homework_n1.ui.stateholders.TodoItemsViewModel
+import com.example.homework_n1.Importance
+import com.example.homework_n1.TodoItem
+import com.example.homework_n1.TodoItemsViewModel
 import com.example.homework_n1.util.getThemeAttrColor
 import com.example.homework_n1.util.toPx
 import java.text.SimpleDateFormat

@@ -1,4 +1,4 @@
-package com.example.homework_n1.ui.activities
+package com.example.homework_n1
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

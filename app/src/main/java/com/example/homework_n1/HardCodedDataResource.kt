@@ -1,7 +1,5 @@
-package com.example.homework_n1.data.datasource
+package com.example.homework_n1
 
-import com.example.homework_n1.data.model.Importance
-import com.example.homework_n1.data.model.TodoItem
 import kotlinx.coroutines.delay
 import java.text.SimpleDateFormat
 import java.util.Locale

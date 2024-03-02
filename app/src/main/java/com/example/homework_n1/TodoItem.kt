@@ -1,5 +1,6 @@
-package com.example.homework_n1.data.model
+package com.example.homework_n1
 
+import com.example.homework_n1.Importance
 import java.util.UUID
 
 
@@ -7,8 +8,8 @@ data class TodoItem(
     val id:             String = UUID.randomUUID().toString(),
     val done:           Boolean = false,
     val text:           String = "",
-    val importance:     Importance = Importance.MID,        // TODO: convert enum to String
-    val deadline:       Long? = null,                       // TODO: convert correctly (nullable)
+    val importance: Importance = Importance.MID,
+    val deadline:       Long? = null,
     val createdOn:      Long = System.currentTimeMillis(),
     val editedOn:       Long = createdOn,
 )

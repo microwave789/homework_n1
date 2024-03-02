@@ -1,4 +1,4 @@
-package com.example.homework_n1.ui.view
+package com.example.homework_n1
 
 import android.graphics.Rect
 import android.view.View
